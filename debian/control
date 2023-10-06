@@ -11,6 +11,7 @@ Package: waydroid-system-custom
 Architecture: all
 Depends: ${misc:Depends}
 Provides: waydroid-system-image
+Conflicts: waydroid-system-image
 Description: Package that allows to install custom Waydroid image - system
  This empty package allows to satisfy dependencies and install
  custom Waydroid images that must be downloaded separately.
@@ -21,6 +22,7 @@ Description: Package that allows to install custom Waydroid image - system
 Package: waydroid-vendor-custom
 Architecture: all
 Provides: waydroid-vendor-image
+Conflicts: waydroid-vendor-image
 Description: Package that allows to install custom Waydroid image - vendor
  This empty package allows to satisfy dependencies and install
  custom Waydroid images that must be downloaded separately.
